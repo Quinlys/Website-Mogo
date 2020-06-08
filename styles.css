@@ -151,6 +151,106 @@ header {
     background-color: #fff;
 }
 
+.story-about-us {
+    text-align: center;
+    padding: 90px 0 110px 0;
+    background-color: white;
+}
+
+.section-header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.story-about-us h3 {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.story-about-us h2 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.story-about-us h2:after {
+    content: '';
+    height: 3px;
+    width: 60px;
+    display: block;
+    background-color: #f38181;
+    margin: 30px auto;
+}
+
+.story-about-us p {
+    font-size: 15px;
+    color: #999999;
+}
+
+.about-imgs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+
+.about-item {
+    width: 30%;
+    background-color: #95e1d3;
+    position: relative;
+}
+
+.about-img {
+    top: 0;
+    left: 0;
+    text-align: -webkit-center;
+    background: linear-gradient(to bottom, #fce38a, #f38181);
+
+    transition: transform .3s;
+}
+
+.about-item:hover .about-img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.about-item:hover .about-img img{
+    opacity: .3;
+    top: -10px;
+    left: -10px;
+}
+
+.about-img img {
+    width: 100%;
+    display: block;
+    transition: opacity .5s;
+}
+
+.about-item:hover .about-text {
+    opacity: 1;
+}
+
+.about-text {
+    width: 100%;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+
+    position: absolute;
+    top: 38%;
+    left: -4%;
+    z-index: 2;
+    transform: translate3d(0, 50%, 0);
+
+    transition: opacity .5s;
+}
+
+
+
+
+
 
 
 
