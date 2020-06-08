@@ -103,9 +103,11 @@ header {
     width: 100%;
     max-width: 880px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .intro-suptitle {
+    margin-bottom: 15px;
     text-align: center;
     font-size: 72px;
     color: white;
@@ -127,3 +129,39 @@ header {
     background-color: white;
     margin: 60px auto 0 auto;
 }
+
+
+.learn-more-btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 30px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+
+    border: 3px solid white;
+
+    transition: color .3s, background-color .5s;
+}
+
+.learn-more-btn:hover {
+    color: #edcb89;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
